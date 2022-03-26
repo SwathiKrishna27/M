@@ -69,7 +69,7 @@ const App = () => {
 					favouriteComponent={AddFavourite}
 				/>
 			</div>
-			<div className='row d-flex justify-content-end mt-4 mb-4'>
+			<div className='row d-flex align-items-center mt-4 mb-4'>
 				<MovieListHeading heading='Favourites' />
 			</div>
 			<div className='row'>
