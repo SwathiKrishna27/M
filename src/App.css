@@ -1,11 +1,11 @@
 body {
-	background: #141414;
-	color: #ffffff;
+  background: #141414;
+  color: #ffffff;
 }
 
 .movie-app > .row {
-	overflow-x: visible;
-	flex-wrap: nowrap;
+  overflow-x: visible;
+  flex-wrap: nowrap;
 }
 
 .row {
@@ -13,13 +13,13 @@ body {
 }
 
 .image-container {
-	position: relative;
-	transition: transform 0.2s;
+  position: static;
+  transition: transform 0.2s;
 }
 
 .image-container:hover {
-	cursor: pointer;
-	transform: scale(1.1);
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .form-control {
@@ -27,20 +27,32 @@ body {
 }
 
 .image-container:hover .overlay {
-	opacity: 1;
+  opacity: 1;
 }
 
 .overlay {
-	position: absolute;
-	background: rgba(0, 0, 0, 0.8);
-	width: 18.8rem;
-	transition: 0.5s ease;
-	font-size: 20px;
-	padding: 20px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 18.8rem;
+  transition: 0.5s ease;
+  opacity: 0;
+  font-size: 20px;
+  padding: 20px;
   bottom: 0;
-	text-align: center;
+  text-align: center;
 }
 
 .m-3 {
   width: 18rem;
+} 
+
+nav {
+	text-align: center;
+	background-color: lightcyan;
+	height: 90px;
+	font-family: 'Georgia', 'sans-serif';
+	padding: 25px 25px;
+	font-size: 15rem;
+	color: blueviolet;
+	font-weight: bold;
 }
